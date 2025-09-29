@@ -1,4 +1,4 @@
-﻿using CustomControls.RJControls;
+﻿using CustomControls.AVControls;
 using CustomControls.Testing;
 using Microsoft.Win32;
 using System;
@@ -81,7 +81,7 @@ namespace CustomControls
            
         }
 
-        private void Open_DropdownMenu(RJDropdownMenu dropdownMenu, object sender)
+        private void Open_DropdownMenu(AVDropdownMenu dropdownMenu, object sender)
         {
             Control control = (Control)sender;
             dropdownMenu.VisibleChanged += new EventHandler((sender2, ev)
@@ -89,7 +89,7 @@ namespace CustomControls
             dropdownMenu.Show(control, control.Width, 0);
         }
 
-        private void Open_DropdownMenu2(RJDropdownMenu dropdownMenu, object sender)
+        private void Open_DropdownMenu2(AVDropdownMenu dropdownMenu, object sender)
         {
             Control control = (Control)sender;
             dropdownMenu.VisibleChanged += new EventHandler((sender2, ev)
@@ -99,7 +99,7 @@ namespace CustomControls
 
         private void DropdownMenu_VisibleChanged(object sender, EventArgs e, Control ctrl)
         {
-            RJDropdownMenu dropdownMenu = (RJDropdownMenu)sender;
+            AVDropdownMenu dropdownMenu = (AVDropdownMenu)sender;
             if (!DesignMode)
             {
                 if (dropdownMenu.Visible)

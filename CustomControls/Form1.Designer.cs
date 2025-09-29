@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -40,10 +39,10 @@
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.rjDropdownMenu1 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjButton3 = new CustomControls.AVControls.AVButton();
+            this.rjButton2 = new CustomControls.AVControls.AVButton();
+            this.rjButton1 = new CustomControls.AVControls.AVButton();
+            this.rjDropdownMenu1 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.gergeargToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gergeragToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.geargeargToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,7 +62,7 @@
             this.geageagearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gegeagToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.gegeageargeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu2 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu2 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
@@ -83,7 +82,7 @@
             this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu3 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu3 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem22 = new System.Windows.Forms.ToolStripMenuItem();
@@ -103,7 +102,7 @@
             this.toolStripMenuItem36 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem37 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem38 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu4 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu4 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.toolStripMenuItem39 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem40 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem41 = new System.Windows.Forms.ToolStripMenuItem();
@@ -123,7 +122,7 @@
             this.toolStripMenuItem55 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem56 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem57 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu5 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu5 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.toolStripMenuItem58 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem59 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem60 = new System.Windows.Forms.ToolStripMenuItem();
@@ -143,7 +142,7 @@
             this.toolStripMenuItem74 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem75 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem76 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu6 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu6 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.hhyrjhtyjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jtydjtdyjtdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jtyjdyjtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -168,7 +167,7 @@
             this.jtyjtyjtToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.jtyjtyjtyjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jtyjtyjjtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjDropdownMenu7 = new CustomControls.RJControls.RJDropdownMenu(this.components);
+            this.rjDropdownMenu7 = new CustomControls.AVControls.AVDropdownMenu(this.components);
             this.toolStripMenuItem77 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem78 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem79 = new System.Windows.Forms.ToolStripMenuItem();
@@ -203,9 +202,10 @@
             this.toolStripMenuItem98 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem99 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem100 = new System.Windows.Forms.ToolStripMenuItem();
-            this.rjTextBox1 = new CustomControls.RJControls.RJTextBox();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
+            this.rjTextBox1 = new CustomControls.AVControls.AVTextBox();
+            this.rjButton4 = new CustomControls.AVControls.AVButton();
+            this.rjButton5 = new CustomControls.AVControls.AVButton();
+            this.rjToggleButton1 = new CustomControls.AVControls.AVToggleButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.rjDropdownMenu1.SuspendLayout();
@@ -234,7 +234,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(299, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(457, 32);
+            this.label1.Size = new System.Drawing.Size(456, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Custom Controls - C# WinForms";
             // 
@@ -484,12 +484,12 @@
             this.rjDropdownMenu1.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu1.Name = "rjDropdownMenu1";
             this.rjDropdownMenu1.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu1.Size = new System.Drawing.Size(141, 114);
+            this.rjDropdownMenu1.Size = new System.Drawing.Size(181, 136);
             // 
             // gergeargToolStripMenuItem
             // 
             this.gergeargToolStripMenuItem.Name = "gergeargToolStripMenuItem";
-            this.gergeargToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.gergeargToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gergeargToolStripMenuItem.Text = "gergearg";
             // 
             // gergeragToolStripMenuItem
@@ -500,13 +500,13 @@
             this.gergeragToolStripMenuItem2,
             this.gergeargToolStripMenuItem1});
             this.gergeragToolStripMenuItem.Name = "gergeragToolStripMenuItem";
-            this.gergeragToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.gergeragToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gergeragToolStripMenuItem.Text = "gergerag";
             // 
             // geargeargToolStripMenuItem
             // 
             this.geargeargToolStripMenuItem.Name = "geargeargToolStripMenuItem";
-            this.geargeargToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.geargeargToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.geargeargToolStripMenuItem.Text = "geargearg";
             // 
             // gergeargearToolStripMenuItem
@@ -516,43 +516,43 @@
             this.gerageargearToolStripMenuItem,
             this.gergeragToolStripMenuItem1});
             this.gergeargearToolStripMenuItem.Name = "gergeargearToolStripMenuItem";
-            this.gergeargearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gergeargearToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.gergeargearToolStripMenuItem.Text = "gergeargear";
             // 
             // gergergeaToolStripMenuItem
             // 
             this.gergergeaToolStripMenuItem.Name = "gergergeaToolStripMenuItem";
-            this.gergergeaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.gergergeaToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.gergergeaToolStripMenuItem.Text = "gergergea";
             // 
             // gerageargearToolStripMenuItem
             // 
             this.gerageargearToolStripMenuItem.Name = "gerageargearToolStripMenuItem";
-            this.gerageargearToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.gerageargearToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.gerageargearToolStripMenuItem.Text = "gerageargear";
             // 
             // gergeragToolStripMenuItem1
             // 
             this.gergeragToolStripMenuItem1.Name = "gergeragToolStripMenuItem1";
-            this.gergeragToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.gergeragToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
             this.gergeragToolStripMenuItem1.Text = "gergerag";
             // 
             // gergeragToolStripMenuItem2
             // 
             this.gergeragToolStripMenuItem2.Name = "gergeragToolStripMenuItem2";
-            this.gergeragToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.gergeragToolStripMenuItem2.Size = new System.Drawing.Size(150, 22);
             this.gergeragToolStripMenuItem2.Text = "gergerag";
             // 
             // gergeargToolStripMenuItem1
             // 
             this.gergeargToolStripMenuItem1.Name = "gergeargToolStripMenuItem1";
-            this.gergeargToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.gergeargToolStripMenuItem1.Size = new System.Drawing.Size(150, 22);
             this.gergeargToolStripMenuItem1.Text = "gergearg";
             // 
             // gergegtToolStripMenuItem
             // 
             this.gergegtToolStripMenuItem.Name = "gergegtToolStripMenuItem";
-            this.gergegtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.gergegtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gergegtToolStripMenuItem.Text = "gergegt";
             // 
             // gegeeaToolStripMenuItem
@@ -562,25 +562,25 @@
             this.gegeageToolStripMenuItem,
             this.gegegeaToolStripMenuItem});
             this.gegeeaToolStripMenuItem.Name = "gegeeaToolStripMenuItem";
-            this.gegeeaToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.gegeeaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gegeeaToolStripMenuItem.Text = "gegeea";
             // 
             // gegeagearToolStripMenuItem
             // 
             this.gegeagearToolStripMenuItem.Name = "gegeagearToolStripMenuItem";
-            this.gegeagearToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.gegeagearToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.gegeagearToolStripMenuItem.Text = "gegeagear";
             // 
             // gegeageToolStripMenuItem
             // 
             this.gegeageToolStripMenuItem.Name = "gegeageToolStripMenuItem";
-            this.gegeageToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.gegeageToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.gegeageToolStripMenuItem.Text = "gegeage";
             // 
             // gegegeaToolStripMenuItem
             // 
             this.gegegeaToolStripMenuItem.Name = "gegegeaToolStripMenuItem";
-            this.gegegeaToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.gegegeaToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.gegegeaToolStripMenuItem.Text = "gegegea";
             // 
             // gegeageaToolStripMenuItem
@@ -589,13 +589,13 @@
             this.gegeagToolStripMenuItem,
             this.geageagearToolStripMenuItem});
             this.gegeageaToolStripMenuItem.Name = "gegeageaToolStripMenuItem";
-            this.gegeageaToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.gegeageaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gegeageaToolStripMenuItem.Text = "gegeagea";
             // 
             // gegeagToolStripMenuItem
             // 
             this.gegeagToolStripMenuItem.Name = "gegeagToolStripMenuItem";
-            this.gegeagToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gegeagToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.gegeagToolStripMenuItem.Text = "gegeag";
             // 
             // geageagearToolStripMenuItem
@@ -604,19 +604,19 @@
             this.gegeagToolStripMenuItem1,
             this.gegeageargeToolStripMenuItem});
             this.geageagearToolStripMenuItem.Name = "geageagearToolStripMenuItem";
-            this.geageagearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.geageagearToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.geageagearToolStripMenuItem.Text = "geageagear";
             // 
             // gegeagToolStripMenuItem1
             // 
             this.gegeagToolStripMenuItem1.Name = "gegeagToolStripMenuItem1";
-            this.gegeagToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.gegeagToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
             this.gegeagToolStripMenuItem1.Text = "gegeag";
             // 
             // gegeageargeToolStripMenuItem
             // 
             this.gegeageargeToolStripMenuItem.Name = "gegeageargeToolStripMenuItem";
-            this.gegeageargeToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.gegeageargeToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.gegeageargeToolStripMenuItem.Text = "gegeagearge";
             // 
             // rjDropdownMenu2
@@ -633,12 +633,12 @@
             this.rjDropdownMenu2.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu2.Name = "rjDropdownMenu1";
             this.rjDropdownMenu2.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu2.Size = new System.Drawing.Size(141, 114);
+            this.rjDropdownMenu2.Size = new System.Drawing.Size(139, 114);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem1.Text = "gergearg";
             // 
             // toolStripMenuItem2
@@ -649,13 +649,13 @@
             this.toolStripMenuItem8,
             this.toolStripMenuItem9});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem2.Text = "gergerag";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem3.Text = "geargearg";
             // 
             // toolStripMenuItem4
@@ -665,43 +665,43 @@
             this.toolStripMenuItem6,
             this.toolStripMenuItem7});
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem4.Text = "gergeargear";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem5.Text = "gergergea";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem6.Text = "gerageargear";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem7.Text = "gergerag";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem8.Text = "gergerag";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem9.Text = "gergearg";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem10.Text = "gergegt";
             // 
             // toolStripMenuItem11
@@ -711,25 +711,25 @@
             this.toolStripMenuItem13,
             this.toolStripMenuItem14});
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem11.Text = "gegeea";
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem12.Text = "gegeagear";
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem13.Text = "gegeage";
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem14.Text = "gegegea";
             // 
             // toolStripMenuItem15
@@ -738,13 +738,13 @@
             this.toolStripMenuItem16,
             this.toolStripMenuItem17});
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem15.Text = "gegeagea";
             // 
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem16.Text = "gegeag";
             // 
             // toolStripMenuItem17
@@ -753,19 +753,19 @@
             this.toolStripMenuItem18,
             this.toolStripMenuItem19});
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem17.Text = "geageagear";
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem18.Text = "gegeag";
             // 
             // toolStripMenuItem19
             // 
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem19.Text = "gegeagearge";
             // 
             // rjDropdownMenu3
@@ -782,12 +782,12 @@
             this.rjDropdownMenu3.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu3.Name = "rjDropdownMenu1";
             this.rjDropdownMenu3.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu3.Size = new System.Drawing.Size(141, 114);
+            this.rjDropdownMenu3.Size = new System.Drawing.Size(139, 114);
             // 
             // toolStripMenuItem20
             // 
             this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem20.Text = "gergearg";
             // 
             // toolStripMenuItem21
@@ -798,13 +798,13 @@
             this.toolStripMenuItem27,
             this.toolStripMenuItem28});
             this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-            this.toolStripMenuItem21.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem21.Text = "gergerag";
             // 
             // toolStripMenuItem22
             // 
             this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem22.Text = "geargearg";
             // 
             // toolStripMenuItem23
@@ -814,43 +814,43 @@
             this.toolStripMenuItem25,
             this.toolStripMenuItem26});
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem23.Text = "gergeargear";
             // 
             // toolStripMenuItem24
             // 
             this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem24.Text = "gergergea";
             // 
             // toolStripMenuItem25
             // 
             this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem25.Text = "gerageargear";
             // 
             // toolStripMenuItem26
             // 
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem26.Text = "gergerag";
             // 
             // toolStripMenuItem27
             // 
             this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem27.Text = "gergerag";
             // 
             // toolStripMenuItem28
             // 
             this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-            this.toolStripMenuItem28.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem28.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem28.Text = "gergearg";
             // 
             // toolStripMenuItem29
             // 
             this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-            this.toolStripMenuItem29.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem29.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem29.Text = "gergegt";
             // 
             // toolStripMenuItem30
@@ -860,25 +860,25 @@
             this.toolStripMenuItem32,
             this.toolStripMenuItem33});
             this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem30.Text = "gegeea";
             // 
             // toolStripMenuItem31
             // 
             this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem31.Text = "gegeagear";
             // 
             // toolStripMenuItem32
             // 
             this.toolStripMenuItem32.Name = "toolStripMenuItem32";
-            this.toolStripMenuItem32.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem32.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem32.Text = "gegeage";
             // 
             // toolStripMenuItem33
             // 
             this.toolStripMenuItem33.Name = "toolStripMenuItem33";
-            this.toolStripMenuItem33.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem33.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem33.Text = "gegegea";
             // 
             // toolStripMenuItem34
@@ -887,13 +887,13 @@
             this.toolStripMenuItem35,
             this.toolStripMenuItem36});
             this.toolStripMenuItem34.Name = "toolStripMenuItem34";
-            this.toolStripMenuItem34.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem34.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem34.Text = "gegeagea";
             // 
             // toolStripMenuItem35
             // 
             this.toolStripMenuItem35.Name = "toolStripMenuItem35";
-            this.toolStripMenuItem35.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem35.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem35.Text = "gegeag";
             // 
             // toolStripMenuItem36
@@ -902,19 +902,19 @@
             this.toolStripMenuItem37,
             this.toolStripMenuItem38});
             this.toolStripMenuItem36.Name = "toolStripMenuItem36";
-            this.toolStripMenuItem36.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem36.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem36.Text = "geageagear";
             // 
             // toolStripMenuItem37
             // 
             this.toolStripMenuItem37.Name = "toolStripMenuItem37";
-            this.toolStripMenuItem37.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem37.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem37.Text = "gegeag";
             // 
             // toolStripMenuItem38
             // 
             this.toolStripMenuItem38.Name = "toolStripMenuItem38";
-            this.toolStripMenuItem38.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem38.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem38.Text = "gegeagearge";
             // 
             // rjDropdownMenu4
@@ -931,12 +931,12 @@
             this.rjDropdownMenu4.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu4.Name = "rjDropdownMenu1";
             this.rjDropdownMenu4.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu4.Size = new System.Drawing.Size(141, 114);
+            this.rjDropdownMenu4.Size = new System.Drawing.Size(139, 114);
             // 
             // toolStripMenuItem39
             // 
             this.toolStripMenuItem39.Name = "toolStripMenuItem39";
-            this.toolStripMenuItem39.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem39.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem39.Text = "gergearg";
             // 
             // toolStripMenuItem40
@@ -947,13 +947,13 @@
             this.toolStripMenuItem46,
             this.toolStripMenuItem47});
             this.toolStripMenuItem40.Name = "toolStripMenuItem40";
-            this.toolStripMenuItem40.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem40.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem40.Text = "gergerag";
             // 
             // toolStripMenuItem41
             // 
             this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-            this.toolStripMenuItem41.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem41.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem41.Text = "geargearg";
             // 
             // toolStripMenuItem42
@@ -963,43 +963,43 @@
             this.toolStripMenuItem44,
             this.toolStripMenuItem45});
             this.toolStripMenuItem42.Name = "toolStripMenuItem42";
-            this.toolStripMenuItem42.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem42.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem42.Text = "gergeargear";
             // 
             // toolStripMenuItem43
             // 
             this.toolStripMenuItem43.Name = "toolStripMenuItem43";
-            this.toolStripMenuItem43.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem43.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem43.Text = "gergergea";
             // 
             // toolStripMenuItem44
             // 
             this.toolStripMenuItem44.Name = "toolStripMenuItem44";
-            this.toolStripMenuItem44.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem44.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem44.Text = "gerageargear";
             // 
             // toolStripMenuItem45
             // 
             this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-            this.toolStripMenuItem45.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem45.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem45.Text = "gergerag";
             // 
             // toolStripMenuItem46
             // 
             this.toolStripMenuItem46.Name = "toolStripMenuItem46";
-            this.toolStripMenuItem46.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem46.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem46.Text = "gergerag";
             // 
             // toolStripMenuItem47
             // 
             this.toolStripMenuItem47.Name = "toolStripMenuItem47";
-            this.toolStripMenuItem47.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem47.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem47.Text = "gergearg";
             // 
             // toolStripMenuItem48
             // 
             this.toolStripMenuItem48.Name = "toolStripMenuItem48";
-            this.toolStripMenuItem48.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem48.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem48.Text = "gergegt";
             // 
             // toolStripMenuItem49
@@ -1009,25 +1009,25 @@
             this.toolStripMenuItem51,
             this.toolStripMenuItem52});
             this.toolStripMenuItem49.Name = "toolStripMenuItem49";
-            this.toolStripMenuItem49.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem49.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem49.Text = "gegeea";
             // 
             // toolStripMenuItem50
             // 
             this.toolStripMenuItem50.Name = "toolStripMenuItem50";
-            this.toolStripMenuItem50.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem50.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem50.Text = "gegeagear";
             // 
             // toolStripMenuItem51
             // 
             this.toolStripMenuItem51.Name = "toolStripMenuItem51";
-            this.toolStripMenuItem51.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem51.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem51.Text = "gegeage";
             // 
             // toolStripMenuItem52
             // 
             this.toolStripMenuItem52.Name = "toolStripMenuItem52";
-            this.toolStripMenuItem52.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem52.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem52.Text = "gegegea";
             // 
             // toolStripMenuItem53
@@ -1036,13 +1036,13 @@
             this.toolStripMenuItem54,
             this.toolStripMenuItem55});
             this.toolStripMenuItem53.Name = "toolStripMenuItem53";
-            this.toolStripMenuItem53.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem53.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem53.Text = "gegeagea";
             // 
             // toolStripMenuItem54
             // 
             this.toolStripMenuItem54.Name = "toolStripMenuItem54";
-            this.toolStripMenuItem54.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem54.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem54.Text = "gegeag";
             // 
             // toolStripMenuItem55
@@ -1051,19 +1051,19 @@
             this.toolStripMenuItem56,
             this.toolStripMenuItem57});
             this.toolStripMenuItem55.Name = "toolStripMenuItem55";
-            this.toolStripMenuItem55.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem55.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem55.Text = "geageagear";
             // 
             // toolStripMenuItem56
             // 
             this.toolStripMenuItem56.Name = "toolStripMenuItem56";
-            this.toolStripMenuItem56.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem56.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem56.Text = "gegeag";
             // 
             // toolStripMenuItem57
             // 
             this.toolStripMenuItem57.Name = "toolStripMenuItem57";
-            this.toolStripMenuItem57.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem57.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem57.Text = "gegeagearge";
             // 
             // rjDropdownMenu5
@@ -1080,12 +1080,12 @@
             this.rjDropdownMenu5.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu5.Name = "rjDropdownMenu1";
             this.rjDropdownMenu5.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu5.Size = new System.Drawing.Size(141, 114);
+            this.rjDropdownMenu5.Size = new System.Drawing.Size(139, 114);
             // 
             // toolStripMenuItem58
             // 
             this.toolStripMenuItem58.Name = "toolStripMenuItem58";
-            this.toolStripMenuItem58.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem58.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem58.Text = "gergearg";
             // 
             // toolStripMenuItem59
@@ -1096,13 +1096,13 @@
             this.toolStripMenuItem65,
             this.toolStripMenuItem66});
             this.toolStripMenuItem59.Name = "toolStripMenuItem59";
-            this.toolStripMenuItem59.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem59.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem59.Text = "gergerag";
             // 
             // toolStripMenuItem60
             // 
             this.toolStripMenuItem60.Name = "toolStripMenuItem60";
-            this.toolStripMenuItem60.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem60.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem60.Text = "geargearg";
             // 
             // toolStripMenuItem61
@@ -1112,43 +1112,43 @@
             this.toolStripMenuItem63,
             this.toolStripMenuItem64});
             this.toolStripMenuItem61.Name = "toolStripMenuItem61";
-            this.toolStripMenuItem61.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem61.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem61.Text = "gergeargear";
             // 
             // toolStripMenuItem62
             // 
             this.toolStripMenuItem62.Name = "toolStripMenuItem62";
-            this.toolStripMenuItem62.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem62.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem62.Text = "gergergea";
             // 
             // toolStripMenuItem63
             // 
             this.toolStripMenuItem63.Name = "toolStripMenuItem63";
-            this.toolStripMenuItem63.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem63.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem63.Text = "gerageargear";
             // 
             // toolStripMenuItem64
             // 
             this.toolStripMenuItem64.Name = "toolStripMenuItem64";
-            this.toolStripMenuItem64.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem64.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem64.Text = "gergerag";
             // 
             // toolStripMenuItem65
             // 
             this.toolStripMenuItem65.Name = "toolStripMenuItem65";
-            this.toolStripMenuItem65.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem65.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem65.Text = "gergerag";
             // 
             // toolStripMenuItem66
             // 
             this.toolStripMenuItem66.Name = "toolStripMenuItem66";
-            this.toolStripMenuItem66.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem66.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem66.Text = "gergearg";
             // 
             // toolStripMenuItem67
             // 
             this.toolStripMenuItem67.Name = "toolStripMenuItem67";
-            this.toolStripMenuItem67.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem67.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem67.Text = "gergegt";
             // 
             // toolStripMenuItem68
@@ -1158,25 +1158,25 @@
             this.toolStripMenuItem70,
             this.toolStripMenuItem71});
             this.toolStripMenuItem68.Name = "toolStripMenuItem68";
-            this.toolStripMenuItem68.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem68.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem68.Text = "gegeea";
             // 
             // toolStripMenuItem69
             // 
             this.toolStripMenuItem69.Name = "toolStripMenuItem69";
-            this.toolStripMenuItem69.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem69.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem69.Text = "gegeagear";
             // 
             // toolStripMenuItem70
             // 
             this.toolStripMenuItem70.Name = "toolStripMenuItem70";
-            this.toolStripMenuItem70.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem70.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem70.Text = "gegeage";
             // 
             // toolStripMenuItem71
             // 
             this.toolStripMenuItem71.Name = "toolStripMenuItem71";
-            this.toolStripMenuItem71.Size = new System.Drawing.Size(144, 22);
+            this.toolStripMenuItem71.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem71.Text = "gegegea";
             // 
             // toolStripMenuItem72
@@ -1185,13 +1185,13 @@
             this.toolStripMenuItem73,
             this.toolStripMenuItem74});
             this.toolStripMenuItem72.Name = "toolStripMenuItem72";
-            this.toolStripMenuItem72.Size = new System.Drawing.Size(140, 22);
+            this.toolStripMenuItem72.Size = new System.Drawing.Size(138, 22);
             this.toolStripMenuItem72.Text = "gegeagea";
             // 
             // toolStripMenuItem73
             // 
             this.toolStripMenuItem73.Name = "toolStripMenuItem73";
-            this.toolStripMenuItem73.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem73.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem73.Text = "gegeag";
             // 
             // toolStripMenuItem74
@@ -1200,19 +1200,19 @@
             this.toolStripMenuItem75,
             this.toolStripMenuItem76});
             this.toolStripMenuItem74.Name = "toolStripMenuItem74";
-            this.toolStripMenuItem74.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem74.Size = new System.Drawing.Size(150, 22);
             this.toolStripMenuItem74.Text = "geageagear";
             // 
             // toolStripMenuItem75
             // 
             this.toolStripMenuItem75.Name = "toolStripMenuItem75";
-            this.toolStripMenuItem75.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem75.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem75.Text = "gegeag";
             // 
             // toolStripMenuItem76
             // 
             this.toolStripMenuItem76.Name = "toolStripMenuItem76";
-            this.toolStripMenuItem76.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem76.Size = new System.Drawing.Size(158, 22);
             this.toolStripMenuItem76.Text = "gegeagearge";
             // 
             // rjDropdownMenu6
@@ -1230,18 +1230,18 @@
             this.rjDropdownMenu6.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu6.Name = "rjDropdownMenu6";
             this.rjDropdownMenu6.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu6.Size = new System.Drawing.Size(143, 136);
+            this.rjDropdownMenu6.Size = new System.Drawing.Size(141, 136);
             // 
             // hhyrjhtyjToolStripMenuItem
             // 
             this.hhyrjhtyjToolStripMenuItem.Name = "hhyrjhtyjToolStripMenuItem";
-            this.hhyrjhtyjToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hhyrjhtyjToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hhyrjhtyjToolStripMenuItem.Text = "hhyrjhtyj";
             // 
             // jtydjtdyjtdToolStripMenuItem
             // 
             this.jtydjtdyjtdToolStripMenuItem.Name = "jtydjtdyjtdToolStripMenuItem";
-            this.jtydjtdyjtdToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.jtydjtdyjtdToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.jtydjtdyjtdToolStripMenuItem.Text = "jtydjtdyjtd";
             // 
             // jtyjdyjtToolStripMenuItem
@@ -1252,19 +1252,19 @@
             this.hrdhrdthrtToolStripMenuItem,
             this.hrhrdhrthToolStripMenuItem});
             this.jtyjdyjtToolStripMenuItem.Name = "jtyjdyjtToolStripMenuItem";
-            this.jtyjdyjtToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.jtyjdyjtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.jtyjdyjtToolStripMenuItem.Text = "jtyjdyjt";
             // 
             // jtyjtdToolStripMenuItem
             // 
             this.jtyjtdToolStripMenuItem.Name = "jtyjtdToolStripMenuItem";
-            this.jtyjtdToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.jtyjtdToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.jtyjtdToolStripMenuItem.Text = "jtyjtd";
             // 
             // hrhdrhrtToolStripMenuItem
             // 
             this.hrhdrhrtToolStripMenuItem.Name = "hrhdrhrtToolStripMenuItem";
-            this.hrhdrhrtToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.hrhdrhrtToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.hrhdrhrtToolStripMenuItem.Text = "hrhdrhrt";
             // 
             // hrdhrdthrtToolStripMenuItem
@@ -1274,31 +1274,31 @@
             this.hrdhrdthrToolStripMenuItem,
             this.hrdhrdhrdtToolStripMenuItem});
             this.hrdhrdthrtToolStripMenuItem.Name = "hrdhrdthrtToolStripMenuItem";
-            this.hrdhrdthrtToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.hrdhrdthrtToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.hrdhrdthrtToolStripMenuItem.Text = "hrdhrdthrt";
             // 
             // hrhrdhrtdrthToolStripMenuItem
             // 
             this.hrhrdhrtdrthToolStripMenuItem.Name = "hrhrdhrtdrthToolStripMenuItem";
-            this.hrhrdhrtdrthToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hrhrdhrtdrthToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hrhrdhrtdrthToolStripMenuItem.Text = "hrhrdhrtdrth";
             // 
             // hrdhrdthrToolStripMenuItem
             // 
             this.hrdhrdthrToolStripMenuItem.Name = "hrdhrdthrToolStripMenuItem";
-            this.hrdhrdthrToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hrdhrdthrToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hrdhrdthrToolStripMenuItem.Text = "hrdhrdthr";
             // 
             // hrdhrdhrdtToolStripMenuItem
             // 
             this.hrdhrdhrdtToolStripMenuItem.Name = "hrdhrdhrdtToolStripMenuItem";
-            this.hrdhrdhrdtToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hrdhrdhrdtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hrdhrdhrdtToolStripMenuItem.Text = "hrdhrdhrdt";
             // 
             // hrhrdhrthToolStripMenuItem
             // 
             this.hrhrdhrthToolStripMenuItem.Name = "hrhrdhrthToolStripMenuItem";
-            this.hrhrdhrthToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.hrhrdhrthToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.hrhrdhrthToolStripMenuItem.Text = "hrhrdhrth";
             // 
             // hrtdhrdthrtToolStripMenuItem
@@ -1308,31 +1308,31 @@
             this.hrtdhrdhrtdToolStripMenuItem,
             this.hrdhrdhrtToolStripMenuItem});
             this.hrtdhrdthrtToolStripMenuItem.Name = "hrtdhrdthrtToolStripMenuItem";
-            this.hrtdhrdthrtToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hrtdhrdthrtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hrtdhrdthrtToolStripMenuItem.Text = "hrtdhrdthrt";
             // 
             // hrtdhrdthToolStripMenuItem
             // 
             this.hrtdhrdthToolStripMenuItem.Name = "hrtdhrdthToolStripMenuItem";
-            this.hrtdhrdthToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.hrtdhrdthToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.hrtdhrdthToolStripMenuItem.Text = "hrtdhrdth";
             // 
             // hrtdhrdhrtdToolStripMenuItem
             // 
             this.hrtdhrdhrtdToolStripMenuItem.Name = "hrtdhrdhrtdToolStripMenuItem";
-            this.hrtdhrdhrtdToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.hrtdhrdhrtdToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.hrtdhrdhrtdToolStripMenuItem.Text = "hrtdhrdhrtd";
             // 
             // hrdhrdhrtToolStripMenuItem
             // 
             this.hrdhrdhrtToolStripMenuItem.Name = "hrdhrdhrtToolStripMenuItem";
-            this.hrdhrdhrtToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.hrdhrdhrtToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.hrdhrdhrtToolStripMenuItem.Text = "hrdhrdhrt";
             // 
             // hrtdhrdthrdtToolStripMenuItem
             // 
             this.hrtdhrdthrdtToolStripMenuItem.Name = "hrtdhrdthrdtToolStripMenuItem";
-            this.hrtdhrdthrdtToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.hrtdhrdthrdtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.hrtdhrdthrdtToolStripMenuItem.Text = "hrtdhrdthrdt";
             // 
             // jtyjtyjtjtjtToolStripMenuItem
@@ -1342,19 +1342,19 @@
             this.jtyjtToolStripMenuItem,
             this.jtyjttyToolStripMenuItem});
             this.jtyjtyjtjtjtToolStripMenuItem.Name = "jtyjtyjtjtjtToolStripMenuItem";
-            this.jtyjtyjtjtjtToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.jtyjtyjtjtjtToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.jtyjtyjtjtjtToolStripMenuItem.Text = "jtyjtyjtjtjt";
             // 
             // jtyjtyjtToolStripMenuItem
             // 
             this.jtyjtyjtToolStripMenuItem.Name = "jtyjtyjtToolStripMenuItem";
-            this.jtyjtyjtToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.jtyjtyjtToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.jtyjtyjtToolStripMenuItem.Text = "jtyjtyjt";
             // 
             // jtyjtToolStripMenuItem
             // 
             this.jtyjtToolStripMenuItem.Name = "jtyjtToolStripMenuItem";
-            this.jtyjtToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.jtyjtToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.jtyjtToolStripMenuItem.Text = "jtyjt";
             // 
             // jtyjttyToolStripMenuItem
@@ -1363,13 +1363,13 @@
             this.jtyjtyjToolStripMenuItem,
             this.jtyjtyjToolStripMenuItem1});
             this.jtyjttyToolStripMenuItem.Name = "jtyjttyToolStripMenuItem";
-            this.jtyjttyToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.jtyjttyToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.jtyjttyToolStripMenuItem.Text = "jtyjtty";
             // 
             // jtyjtyjToolStripMenuItem
             // 
             this.jtyjtyjToolStripMenuItem.Name = "jtyjtyjToolStripMenuItem";
-            this.jtyjtyjToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.jtyjtyjToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.jtyjtyjToolStripMenuItem.Text = "jtyjtyj";
             // 
             // jtyjtyjToolStripMenuItem1
@@ -1379,25 +1379,25 @@
             this.jtyjtyjtyjToolStripMenuItem,
             this.jtyjtyjjtToolStripMenuItem});
             this.jtyjtyjToolStripMenuItem1.Name = "jtyjtyjToolStripMenuItem1";
-            this.jtyjtyjToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
+            this.jtyjtyjToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
             this.jtyjtyjToolStripMenuItem1.Text = "jtyjtyj";
             // 
             // jtyjtyjtToolStripMenuItem1
             // 
             this.jtyjtyjtToolStripMenuItem1.Name = "jtyjtyjtToolStripMenuItem1";
-            this.jtyjtyjtToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
+            this.jtyjtyjtToolStripMenuItem1.Size = new System.Drawing.Size(116, 22);
             this.jtyjtyjtToolStripMenuItem1.Text = "jtyjtyjt";
             // 
             // jtyjtyjtyjToolStripMenuItem
             // 
             this.jtyjtyjtyjToolStripMenuItem.Name = "jtyjtyjtyjToolStripMenuItem";
-            this.jtyjtyjtyjToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.jtyjtyjtyjToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.jtyjtyjtyjToolStripMenuItem.Text = "jtyjtyjtyj";
             // 
             // jtyjtyjjtToolStripMenuItem
             // 
             this.jtyjtyjjtToolStripMenuItem.Name = "jtyjtyjjtToolStripMenuItem";
-            this.jtyjtyjjtToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.jtyjtyjjtToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.jtyjtyjjtToolStripMenuItem.Text = "jtyjtyjjt";
             // 
             // rjDropdownMenu7
@@ -1415,18 +1415,18 @@
             this.rjDropdownMenu7.MenuItemTextColor = System.Drawing.Color.DimGray;
             this.rjDropdownMenu7.Name = "rjDropdownMenu6";
             this.rjDropdownMenu7.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjDropdownMenu7.Size = new System.Drawing.Size(143, 136);
+            this.rjDropdownMenu7.Size = new System.Drawing.Size(141, 136);
             // 
             // toolStripMenuItem77
             // 
             this.toolStripMenuItem77.Name = "toolStripMenuItem77";
-            this.toolStripMenuItem77.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem77.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem77.Text = "hhyrjhtyj";
             // 
             // toolStripMenuItem78
             // 
             this.toolStripMenuItem78.Name = "toolStripMenuItem78";
-            this.toolStripMenuItem78.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem78.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem78.Text = "jtydjtdyjtd";
             // 
             // toolStripMenuItem79
@@ -1437,19 +1437,19 @@
             this.toolStripMenuItem82,
             this.toolStripMenuItem86});
             this.toolStripMenuItem79.Name = "toolStripMenuItem79";
-            this.toolStripMenuItem79.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem79.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem79.Text = "jtyjdyjt";
             // 
             // toolStripMenuItem80
             // 
             this.toolStripMenuItem80.Name = "toolStripMenuItem80";
-            this.toolStripMenuItem80.Size = new System.Drawing.Size(131, 22);
+            this.toolStripMenuItem80.Size = new System.Drawing.Size(129, 22);
             this.toolStripMenuItem80.Text = "jtyjtd";
             // 
             // toolStripMenuItem81
             // 
             this.toolStripMenuItem81.Name = "toolStripMenuItem81";
-            this.toolStripMenuItem81.Size = new System.Drawing.Size(131, 22);
+            this.toolStripMenuItem81.Size = new System.Drawing.Size(129, 22);
             this.toolStripMenuItem81.Text = "hrhdrhrt";
             // 
             // toolStripMenuItem82
@@ -1459,31 +1459,31 @@
             this.toolStripMenuItem84,
             this.toolStripMenuItem85});
             this.toolStripMenuItem82.Name = "toolStripMenuItem82";
-            this.toolStripMenuItem82.Size = new System.Drawing.Size(131, 22);
+            this.toolStripMenuItem82.Size = new System.Drawing.Size(129, 22);
             this.toolStripMenuItem82.Text = "hrdhrdthrt";
             // 
             // toolStripMenuItem83
             // 
             this.toolStripMenuItem83.Name = "toolStripMenuItem83";
-            this.toolStripMenuItem83.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem83.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem83.Text = "hrhrdhrtdrth";
             // 
             // toolStripMenuItem84
             // 
             this.toolStripMenuItem84.Name = "toolStripMenuItem84";
-            this.toolStripMenuItem84.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem84.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem84.Text = "hrdhrdthr";
             // 
             // toolStripMenuItem85
             // 
             this.toolStripMenuItem85.Name = "toolStripMenuItem85";
-            this.toolStripMenuItem85.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem85.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem85.Text = "hrdhrdhrdt";
             // 
             // toolStripMenuItem86
             // 
             this.toolStripMenuItem86.Name = "toolStripMenuItem86";
-            this.toolStripMenuItem86.Size = new System.Drawing.Size(131, 22);
+            this.toolStripMenuItem86.Size = new System.Drawing.Size(129, 22);
             this.toolStripMenuItem86.Text = "hrhrdhrth";
             // 
             // toolStripMenuItem87
@@ -1493,13 +1493,13 @@
             this.toolStripMenuItem89,
             this.toolStripMenuItem90});
             this.toolStripMenuItem87.Name = "toolStripMenuItem87";
-            this.toolStripMenuItem87.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem87.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem87.Text = "hrtdhrdthrt";
             // 
             // toolStripMenuItem88
             // 
             this.toolStripMenuItem88.Name = "toolStripMenuItem88";
-            this.toolStripMenuItem88.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem88.Size = new System.Drawing.Size(137, 22);
             this.toolStripMenuItem88.Text = "hrtdhrdth";
             // 
             // toolStripMenuItem89
@@ -1509,19 +1509,19 @@
             this.fwfwaefToolStripMenuItem,
             this.fwafwafwaeToolStripMenuItem});
             this.toolStripMenuItem89.Name = "toolStripMenuItem89";
-            this.toolStripMenuItem89.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem89.Size = new System.Drawing.Size(137, 22);
             this.toolStripMenuItem89.Text = "hrtdhrdhrtd";
             // 
             // fwefwaeToolStripMenuItem
             // 
             this.fwefwaeToolStripMenuItem.Name = "fwefwaeToolStripMenuItem";
-            this.fwefwaeToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fwefwaeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fwefwaeToolStripMenuItem.Text = "fwefwae";
             // 
             // fwfwaefToolStripMenuItem
             // 
             this.fwfwaefToolStripMenuItem.Name = "fwfwaefToolStripMenuItem";
-            this.fwfwaefToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fwfwaefToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fwfwaefToolStripMenuItem.Text = "fwfwaef";
             // 
             // fwafwafwaeToolStripMenuItem
@@ -1531,37 +1531,37 @@
             this.fwafwafwafwaeToolStripMenuItem,
             this.fwefwaefwfeToolStripMenuItem});
             this.fwafwafwaeToolStripMenuItem.Name = "fwafwafwaeToolStripMenuItem";
-            this.fwafwafwaeToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fwafwafwaeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fwafwafwaeToolStripMenuItem.Text = "fwafwafwae";
             // 
             // fwaefwaefwaeToolStripMenuItem
             // 
             this.fwaefwaefwaeToolStripMenuItem.Name = "fwaefwaefwaeToolStripMenuItem";
-            this.fwaefwaefwaeToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.fwaefwaefwaeToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.fwaefwaefwaeToolStripMenuItem.Text = "fwaefwaefwae";
             // 
             // fwafwafwafwaeToolStripMenuItem
             // 
             this.fwafwafwafwaeToolStripMenuItem.Name = "fwafwafwafwaeToolStripMenuItem";
-            this.fwafwafwafwaeToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.fwafwafwafwaeToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.fwafwafwafwaeToolStripMenuItem.Text = "fwafwafwafwae";
             // 
             // fwefwaefwfeToolStripMenuItem
             // 
             this.fwefwaefwfeToolStripMenuItem.Name = "fwefwaefwfeToolStripMenuItem";
-            this.fwefwaefwfeToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.fwefwaefwfeToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.fwefwaefwfeToolStripMenuItem.Text = "fwefwaefwfe";
             // 
             // toolStripMenuItem90
             // 
             this.toolStripMenuItem90.Name = "toolStripMenuItem90";
-            this.toolStripMenuItem90.Size = new System.Drawing.Size(139, 22);
+            this.toolStripMenuItem90.Size = new System.Drawing.Size(137, 22);
             this.toolStripMenuItem90.Text = "hrdhrdhrt";
             // 
             // toolStripMenuItem91
             // 
             this.toolStripMenuItem91.Name = "toolStripMenuItem91";
-            this.toolStripMenuItem91.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem91.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem91.Text = "hrtdhrdthrdt";
             // 
             // toolStripMenuItem92
@@ -1571,13 +1571,13 @@
             this.toolStripMenuItem94,
             this.toolStripMenuItem95});
             this.toolStripMenuItem92.Name = "toolStripMenuItem92";
-            this.toolStripMenuItem92.Size = new System.Drawing.Size(142, 22);
+            this.toolStripMenuItem92.Size = new System.Drawing.Size(140, 22);
             this.toolStripMenuItem92.Text = "jtyjtyjtjtjt";
             // 
             // toolStripMenuItem93
             // 
             this.toolStripMenuItem93.Name = "toolStripMenuItem93";
-            this.toolStripMenuItem93.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem93.Size = new System.Drawing.Size(106, 22);
             this.toolStripMenuItem93.Text = "jtyjtyjt";
             // 
             // toolStripMenuItem94
@@ -1588,31 +1588,31 @@
             this.fwefwafwaeToolStripMenuItem,
             this.fweafwafToolStripMenuItem});
             this.toolStripMenuItem94.Name = "toolStripMenuItem94";
-            this.toolStripMenuItem94.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem94.Size = new System.Drawing.Size(106, 22);
             this.toolStripMenuItem94.Text = "jtyjt";
             // 
             // fwefweaToolStripMenuItem
             // 
             this.fwefweaToolStripMenuItem.Name = "fwefweaToolStripMenuItem";
-            this.fwefweaToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fwefweaToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fwefweaToolStripMenuItem.Text = "fwefwea";
             // 
             // fweafwaefToolStripMenuItem
             // 
             this.fweafwaefToolStripMenuItem.Name = "fweafwaefToolStripMenuItem";
-            this.fweafwaefToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fweafwaefToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fweafwaefToolStripMenuItem.Text = "fweafwaef";
             // 
             // fwefwafwaeToolStripMenuItem
             // 
             this.fwefwafwaeToolStripMenuItem.Name = "fwefwafwaeToolStripMenuItem";
-            this.fwefwafwaeToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fwefwafwaeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fwefwafwaeToolStripMenuItem.Text = "fwefwafwae";
             // 
             // fweafwafToolStripMenuItem
             // 
             this.fweafwafToolStripMenuItem.Name = "fweafwafToolStripMenuItem";
-            this.fweafwafToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.fweafwafToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.fweafwafToolStripMenuItem.Text = "fweafwaf";
             // 
             // toolStripMenuItem95
@@ -1621,13 +1621,13 @@
             this.toolStripMenuItem96,
             this.toolStripMenuItem97});
             this.toolStripMenuItem95.Name = "toolStripMenuItem95";
-            this.toolStripMenuItem95.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem95.Size = new System.Drawing.Size(106, 22);
             this.toolStripMenuItem95.Text = "jtyjtty";
             // 
             // toolStripMenuItem96
             // 
             this.toolStripMenuItem96.Name = "toolStripMenuItem96";
-            this.toolStripMenuItem96.Size = new System.Drawing.Size(105, 22);
+            this.toolStripMenuItem96.Size = new System.Drawing.Size(103, 22);
             this.toolStripMenuItem96.Text = "jtyjtyj";
             // 
             // toolStripMenuItem97
@@ -1637,25 +1637,25 @@
             this.toolStripMenuItem99,
             this.toolStripMenuItem100});
             this.toolStripMenuItem97.Name = "toolStripMenuItem97";
-            this.toolStripMenuItem97.Size = new System.Drawing.Size(105, 22);
+            this.toolStripMenuItem97.Size = new System.Drawing.Size(103, 22);
             this.toolStripMenuItem97.Text = "jtyjtyj";
             // 
             // toolStripMenuItem98
             // 
             this.toolStripMenuItem98.Name = "toolStripMenuItem98";
-            this.toolStripMenuItem98.Size = new System.Drawing.Size(118, 22);
+            this.toolStripMenuItem98.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem98.Text = "jtyjtyjt";
             // 
             // toolStripMenuItem99
             // 
             this.toolStripMenuItem99.Name = "toolStripMenuItem99";
-            this.toolStripMenuItem99.Size = new System.Drawing.Size(118, 22);
+            this.toolStripMenuItem99.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem99.Text = "jtyjtyjtyj";
             // 
             // toolStripMenuItem100
             // 
             this.toolStripMenuItem100.Name = "toolStripMenuItem100";
-            this.toolStripMenuItem100.Size = new System.Drawing.Size(118, 22);
+            this.toolStripMenuItem100.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem100.Text = "jtyjtyjjt";
             // 
             // rjTextBox1
@@ -1718,12 +1718,27 @@
             this.rjButton5.UseVisualStyleBackColor = false;
             this.rjButton5.Click += new System.EventHandler(this.rjButton5_Click);
             // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(534, 316);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.TabIndex = 35;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1034, 511);
+            this.Controls.Add(this.rjToggleButton1);
             this.Controls.Add(this.rjButton5);
             this.Controls.Add(this.rjButton4);
             this.Controls.Add(this.rjTextBox1);
@@ -1733,7 +1748,6 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Custom Controls";
@@ -1749,6 +1763,7 @@
             this.rjDropdownMenu6.ResumeLayout(false);
             this.rjDropdownMenu7.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1763,7 +1778,7 @@
         private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private RJControls.RJDropdownMenu rjDropdownMenu1;
+        private AVControls.AVDropdownMenu rjDropdownMenu1;
         private System.Windows.Forms.ToolStripMenuItem gergeargToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gergeragToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem geargeargToolStripMenuItem;
@@ -1783,7 +1798,7 @@
         private System.Windows.Forms.ToolStripMenuItem geageagearToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gegeagToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem gegeageargeToolStripMenuItem;
-        private RJControls.RJDropdownMenu rjDropdownMenu2;
+        private AVControls.AVDropdownMenu rjDropdownMenu2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
@@ -1803,10 +1818,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem17;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem18;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
-        private RJControls.RJButton rjButton1;
-        private RJControls.RJButton rjButton2;
-        private RJControls.RJButton rjButton3;
-        private RJControls.RJDropdownMenu rjDropdownMenu3;
+        private AVControls.AVButton rjButton1;
+        private AVControls.AVButton rjButton2;
+        private AVControls.AVButton rjButton3;
+        private AVControls.AVDropdownMenu rjDropdownMenu3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem21;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem22;
@@ -1826,7 +1841,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem36;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem37;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem38;
-        private RJControls.RJDropdownMenu rjDropdownMenu4;
+        private AVControls.AVDropdownMenu rjDropdownMenu4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem39;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem40;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem41;
@@ -1846,7 +1861,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem55;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem56;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem57;
-        private RJControls.RJDropdownMenu rjDropdownMenu5;
+        private AVControls.AVDropdownMenu rjDropdownMenu5;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem58;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem59;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem60;
@@ -1866,7 +1881,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem74;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem75;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem76;
-        private RJControls.RJDropdownMenu rjDropdownMenu6;
+        private AVControls.AVDropdownMenu rjDropdownMenu6;
         private System.Windows.Forms.ToolStripMenuItem hhyrjhtyjToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jtydjtdyjtdToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jtyjdyjtToolStripMenuItem;
@@ -1891,7 +1906,7 @@
         private System.Windows.Forms.ToolStripMenuItem jtyjtyjtToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem jtyjtyjtyjToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jtyjtyjjtToolStripMenuItem;
-        private RJControls.RJDropdownMenu rjDropdownMenu7;
+        private AVControls.AVDropdownMenu rjDropdownMenu7;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem77;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem78;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem79;
@@ -1926,8 +1941,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem98;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem99;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem100;
-        private RJControls.RJTextBox rjTextBox1;
-        private RJControls.RJButton rjButton4;
-        private RJControls.RJButton rjButton5;
+        private AVControls.AVTextBox rjTextBox1;
+        private AVControls.AVButton rjButton4;
+        private AVControls.AVButton rjButton5;
+        private AVControls.AVToggleButton rjToggleButton1;
     }
 }

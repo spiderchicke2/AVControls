@@ -34,14 +34,14 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.rjComboBox3 = new CustomControls.RJControls.RJComboBox();
-            this.rjComboBox4 = new CustomControls.RJControls.RJComboBox();
+            this.rjComboBox3 = new CustomControls.AVControls.AVComboBox();
+            this.rjComboBox4 = new CustomControls.AVControls.AVComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.rjComboBox2 = new CustomControls.RJControls.RJComboBox();
-            this.rjComboBox1 = new CustomControls.RJControls.RJComboBox();
+            this.rjComboBox2 = new CustomControls.AVControls.AVComboBox();
+            this.rjComboBox1 = new CustomControls.AVControls.AVComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -721,13 +721,13 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private RJControls.RJComboBox rjComboBox3;
-        private RJControls.RJComboBox rjComboBox4;
+        private AVControls.AVComboBox rjComboBox3;
+        private AVControls.AVComboBox rjComboBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private RJControls.RJComboBox rjComboBox2;
-        private RJControls.RJComboBox rjComboBox1;
+        private AVControls.AVComboBox rjComboBox2;
+        private AVControls.AVComboBox rjComboBox1;
     }
 }

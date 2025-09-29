@@ -41,12 +41,12 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.rjToggleButton4 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton5 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton6 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton3 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton2 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
+            this.rjToggleButton4 = new CustomControls.AVControls.AVToggleButton();
+            this.rjToggleButton5 = new CustomControls.AVControls.AVToggleButton();
+            this.rjToggleButton6 = new CustomControls.AVControls.AVToggleButton();
+            this.rjToggleButton3 = new CustomControls.AVControls.AVToggleButton();
+            this.rjToggleButton2 = new CustomControls.AVControls.AVToggleButton();
+            this.rjToggleButton1 = new CustomControls.AVControls.AVToggleButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -308,21 +308,21 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private RJControls.RJToggleButton rjToggleButton1;
+        private AVControls.AVToggleButton rjToggleButton1;
         private System.Windows.Forms.Label label2;
-        private RJControls.RJToggleButton rjToggleButton2;
+        private AVControls.AVToggleButton rjToggleButton2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private RJControls.RJToggleButton rjToggleButton3;
+        private AVControls.AVToggleButton rjToggleButton3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private RJControls.RJToggleButton rjToggleButton4;
+        private AVControls.AVToggleButton rjToggleButton4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private RJControls.RJToggleButton rjToggleButton5;
+        private AVControls.AVToggleButton rjToggleButton5;
         private System.Windows.Forms.Label label11;
-        private RJControls.RJToggleButton rjToggleButton6;
+        private AVControls.AVToggleButton rjToggleButton6;
     }
 }

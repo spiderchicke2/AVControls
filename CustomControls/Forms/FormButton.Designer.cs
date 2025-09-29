@@ -34,15 +34,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.rjButton5 = new CustomControls.RJControls.RJButton();
-            this.rjButton6 = new CustomControls.RJControls.RJButton();
-            this.rjButton7 = new CustomControls.RJControls.RJButton();
-            this.rjButton8 = new CustomControls.RJControls.RJButton();
-            this.rjButton9 = new CustomControls.RJControls.RJButton();
+            this.rjButton3 = new CustomControls.AVControls.AVButton();
+            this.rjButton2 = new CustomControls.AVControls.AVButton();
+            this.rjButton1 = new CustomControls.AVControls.AVButton();
+            this.rjButton4 = new CustomControls.AVControls.AVButton();
+            this.rjButton5 = new CustomControls.AVControls.AVButton();
+            this.rjButton6 = new CustomControls.AVControls.AVButton();
+            this.rjButton7 = new CustomControls.AVControls.AVButton();
+            this.rjButton8 = new CustomControls.AVControls.AVButton();
+            this.rjButton9 = new CustomControls.AVControls.AVButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -333,14 +333,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private RJControls.RJButton rjButton1;
-        private RJControls.RJButton rjButton2;
-        private RJControls.RJButton rjButton3;
-        private RJControls.RJButton rjButton4;
-        private RJControls.RJButton rjButton5;
-        private RJControls.RJButton rjButton6;
-        private RJControls.RJButton rjButton7;
-        private RJControls.RJButton rjButton8;
-        private RJControls.RJButton rjButton9;
+        private AVControls.AVButton rjButton1;
+        private AVControls.AVButton rjButton2;
+        private AVControls.AVButton rjButton3;
+        private AVControls.AVButton rjButton4;
+        private AVControls.AVButton rjButton5;
+        private AVControls.AVButton rjButton6;
+        private AVControls.AVButton rjButton7;
+        private AVControls.AVButton rjButton8;
+        private AVControls.AVButton rjButton9;
     }
 }

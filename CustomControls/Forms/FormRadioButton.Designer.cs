@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRadioButton));
     //        this.label1 = new System.Windows.Forms.Label();
     //        this.panel1 = new System.Windows.Forms.Panel();
-    //        this.rjRadioButton21 = new CustomControls.RJControls.RJRadioButton2();
-    //        this.rjRadioButton22 = new CustomControls.RJControls.RJRadioButton2();
-    //        this.rjRadioButton23 = new CustomControls.RJControls.RJRadioButton2();
-    //        this.rjRadioButton24 = new CustomControls.RJControls.RJRadioButton2();
-    //        this.rjRadioButton25 = new CustomControls.RJControls.RJRadioButton2();
+    //        this.rjRadioButton21 = new CustomControls.AVControls.RJRadioButton2();
+    //        this.rjRadioButton22 = new CustomControls.AVControls.RJRadioButton2();
+    //        this.rjRadioButton23 = new CustomControls.AVControls.RJRadioButton2();
+    //        this.rjRadioButton24 = new CustomControls.AVControls.RJRadioButton2();
+    //        this.rjRadioButton25 = new CustomControls.AVControls.RJRadioButton2();
     //        this.panel1.SuspendLayout();
     //        this.SuspendLayout();
     //        // 
@@ -178,10 +178,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private RJControls.RJRadioButton rjRadioButton21;
-        private RJControls.RJRadioButton rjRadioButton22;
-        private RJControls.RJRadioButton rjRadioButton23;
-        private RJControls.RJRadioButton rjRadioButton24;
-        private RJControls.RJRadioButton rjRadioButton25;
+        private AVControls.AVRadioButton rjRadioButton21;
+        private AVControls.AVRadioButton rjRadioButton22;
+        private AVControls.AVRadioButton rjRadioButton23;
+        private AVControls.AVRadioButton rjRadioButton24;
+        private AVControls.AVRadioButton rjRadioButton25;
     }
 }

@@ -34,15 +34,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.rjTextBox8 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox9 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox10 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox6 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox7 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox1 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox2 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox3 = new CustomControls.RJControls.RJTextBox();
-            this.rjTextBox5 = new CustomControls.RJControls.RJTextBox();
+            this.rjTextBox8 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox9 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox10 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox6 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox7 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox1 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox2 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox3 = new CustomControls.AVControls.AVTextBox();
+            this.rjTextBox5 = new CustomControls.AVControls.AVTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -331,18 +331,18 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private RJControls.RJTextBox rjTextBox6;
-        private RJControls.RJTextBox rjTextBox7;
+        private AVControls.AVTextBox rjTextBox6;
+        private AVControls.AVTextBox rjTextBox7;
         private System.Windows.Forms.Label label9;
-        private RJControls.RJTextBox rjTextBox8;
+        private AVControls.AVTextBox rjTextBox8;
         private System.Windows.Forms.Label label10;
-        private RJControls.RJTextBox rjTextBox9;
+        private AVControls.AVTextBox rjTextBox9;
         private System.Windows.Forms.Label label11;
-        private RJControls.RJTextBox rjTextBox10;
-        private RJControls.RJTextBox rjTextBox1;
-        private RJControls.RJTextBox rjTextBox2;
-        private RJControls.RJTextBox rjTextBox3;
-        private RJControls.RJTextBox rjTextBox5;
+        private AVControls.AVTextBox rjTextBox10;
+        private AVControls.AVTextBox rjTextBox1;
+        private AVControls.AVTextBox rjTextBox2;
+        private AVControls.AVTextBox rjTextBox3;
+        private AVControls.AVTextBox rjTextBox5;
     }
 }
 

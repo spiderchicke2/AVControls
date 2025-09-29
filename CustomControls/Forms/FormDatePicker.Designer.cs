@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDatePicker));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.rjDatePicker3 = new CustomControls.RJControls.RJDatePicker();
-            this.rjDatePicker5 = new CustomControls.RJControls.RJDatePicker();
-            this.rjDatePicker6 = new CustomControls.RJControls.RJDatePicker();
-            this.rjDatePicker4 = new CustomControls.RJControls.RJDatePicker();
-            this.rjDatePicker2 = new CustomControls.RJControls.RJDatePicker();
-            this.rjDatePicker1 = new CustomControls.RJControls.RJDatePicker();
+            this.rjDatePicker3 = new CustomControls.AVControls.AVDatePicker();
+            this.rjDatePicker5 = new CustomControls.AVControls.AVDatePicker();
+            this.rjDatePicker6 = new CustomControls.AVControls.AVDatePicker();
+            this.rjDatePicker4 = new CustomControls.AVControls.AVDatePicker();
+            this.rjDatePicker2 = new CustomControls.AVControls.AVDatePicker();
+            this.rjDatePicker1 = new CustomControls.AVControls.AVDatePicker();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,11 +169,11 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private RJControls.RJDatePicker rjDatePicker1;
-        private RJControls.RJDatePicker rjDatePicker2;
-        private RJControls.RJDatePicker rjDatePicker4;
-        private RJControls.RJDatePicker rjDatePicker3;
-        private RJControls.RJDatePicker rjDatePicker5;
-        private RJControls.RJDatePicker rjDatePicker6;
+        private AVControls.AVDatePicker rjDatePicker1;
+        private AVControls.AVDatePicker rjDatePicker2;
+        private AVControls.AVDatePicker rjDatePicker4;
+        private AVControls.AVDatePicker rjDatePicker3;
+        private AVControls.AVDatePicker rjDatePicker5;
+        private AVControls.AVDatePicker rjDatePicker6;
     }
 }

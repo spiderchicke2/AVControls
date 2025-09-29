@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CustomControls</RootNamespace>
     <AssemblyName>CustomControls</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
@@ -57,12 +57,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="RJControls\MenuColorTable.cs" />
-    <Compile Include="RJControls\MenuRenderer.cs" />
-    <Compile Include="RJControls\RJCircularPictureBox.cs">
+    <Compile Include="AVControls\MenuColorTable.cs" />
+    <Compile Include="AVControls\MenuRenderer.cs" />
+    <Compile Include="AVControls\AVCircularPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJComboBox.cs">
+    <Compile Include="AVControls\AVComboBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Forms\FormButton.cs">
@@ -103,28 +103,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RJControls\RJButton.cs">
+    <Compile Include="AVControls\AVButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJDatePicker.cs">
+    <Compile Include="AVControls\AVDatePicker.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJDropdownMenu.cs">
+    <Compile Include="AVControls\AVDropdownMenu.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJProgressBar.cs">
+    <Compile Include="AVControls\AVProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJRadioButton.cs">
+    <Compile Include="AVControls\AVRadioButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RJControls\RJTextBox.cs">
+    <Compile Include="AVControls\AVTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RJControls\RJTextBox.Designer.cs">
-      <DependentUpon>RJTextBox.cs</DependentUpon>
+    <Compile Include="AVControls\AVTextBox.Designer.cs">
+      <DependentUpon>AVTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="RJControls\RJToggleButton.cs">
+    <Compile Include="AVControls\AVToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Forms\FormToggleButton.cs">
@@ -164,8 +164,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RJControls\RJTextBox.resx">
-      <DependentUpon>RJTextBox.cs</DependentUpon>
+    <EmbeddedResource Include="AVControls\AVTextBox.resx">
+      <DependentUpon>AVTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormToggleButton.resx">
       <DependentUpon>FormToggleButton.cs</DependentUpon>

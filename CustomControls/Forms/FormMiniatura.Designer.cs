@@ -37,12 +37,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.rjProgressBar5 = new CustomControls.RJControls.RJProgressBar();
-            this.rjProgressBar4 = new CustomControls.RJControls.RJProgressBar();
-            this.rjProgressBar3 = new CustomControls.RJControls.RJProgressBar();
-            this.rjProgressBar2 = new CustomControls.RJControls.RJProgressBar();
-            this.rjProgressBar1 = new CustomControls.RJControls.RJProgressBar();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.rjProgressBar5 = new CustomControls.AVControls.AVProgressBar();
+            this.rjProgressBar4 = new CustomControls.AVControls.AVProgressBar();
+            this.rjProgressBar3 = new CustomControls.AVControls.AVProgressBar();
+            this.rjProgressBar2 = new CustomControls.AVControls.AVProgressBar();
+            this.rjProgressBar1 = new CustomControls.AVControls.AVProgressBar();
+            this.rjButton1 = new CustomControls.AVControls.AVButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -133,7 +133,7 @@
             this.rjProgressBar5.Location = new System.Drawing.Point(327, 637);
             this.rjProgressBar5.Name = "rjProgressBar5";
             this.rjProgressBar5.ShowMaximun = false;
-            this.rjProgressBar5.ShowValue = CustomControls.RJControls.TextPosition.None;
+            this.rjProgressBar5.ShowValue = CustomControls.AVControls.TextPosition.None;
             this.rjProgressBar5.Size = new System.Drawing.Size(843, 51);
             this.rjProgressBar5.SliderColor = System.Drawing.Color.MediumSeaGreen;
             this.rjProgressBar5.SliderHeight = 30;
@@ -153,7 +153,7 @@
             this.rjProgressBar4.Maximum = 500;
             this.rjProgressBar4.Name = "rjProgressBar4";
             this.rjProgressBar4.ShowMaximun = false;
-            this.rjProgressBar4.ShowValue = CustomControls.RJControls.TextPosition.Sliding;
+            this.rjProgressBar4.ShowValue = CustomControls.AVControls.TextPosition.Sliding;
             this.rjProgressBar4.Size = new System.Drawing.Size(843, 108);
             this.rjProgressBar4.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.rjProgressBar4.SliderHeight = 50;
@@ -174,7 +174,7 @@
             this.rjProgressBar3.Maximum = 1280;
             this.rjProgressBar3.Name = "rjProgressBar3";
             this.rjProgressBar3.ShowMaximun = true;
-            this.rjProgressBar3.ShowValue = CustomControls.RJControls.TextPosition.Center;
+            this.rjProgressBar3.ShowValue = CustomControls.AVControls.TextPosition.Center;
             this.rjProgressBar3.Size = new System.Drawing.Size(843, 104);
             this.rjProgressBar3.SliderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.rjProgressBar3.SliderHeight = 30;
@@ -194,7 +194,7 @@
             this.rjProgressBar2.Location = new System.Drawing.Point(327, 241);
             this.rjProgressBar2.Name = "rjProgressBar2";
             this.rjProgressBar2.ShowMaximun = false;
-            this.rjProgressBar2.ShowValue = CustomControls.RJControls.TextPosition.Right;
+            this.rjProgressBar2.ShowValue = CustomControls.AVControls.TextPosition.Right;
             this.rjProgressBar2.Size = new System.Drawing.Size(843, 83);
             this.rjProgressBar2.SliderColor = System.Drawing.Color.DeepPink;
             this.rjProgressBar2.SliderHeight = 20;
@@ -214,7 +214,7 @@
             this.rjProgressBar1.Maximum = 200;
             this.rjProgressBar1.Name = "rjProgressBar1";
             this.rjProgressBar1.ShowMaximun = true;
-            this.rjProgressBar1.ShowValue = CustomControls.RJControls.TextPosition.Left;
+            this.rjProgressBar1.ShowValue = CustomControls.AVControls.TextPosition.Left;
             this.rjProgressBar1.Size = new System.Drawing.Size(843, 98);
             this.rjProgressBar1.SliderColor = System.Drawing.Color.RoyalBlue;
             this.rjProgressBar1.SliderHeight = 40;
@@ -280,17 +280,17 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private RJControls.RJProgressBar rjProgressBar5;
-        private RJControls.RJProgressBar rjProgressBar4;
-        private RJControls.RJProgressBar rjProgressBar3;
-        private RJControls.RJProgressBar rjProgressBar2;
-        private RJControls.RJProgressBar rjProgressBar1;
+        private AVControls.AVProgressBar rjProgressBar5;
+        private AVControls.AVProgressBar rjProgressBar4;
+        private AVControls.AVProgressBar rjProgressBar3;
+        private AVControls.AVProgressBar rjProgressBar2;
+        private AVControls.AVProgressBar rjProgressBar1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private RJControls.RJButton rjButton1;
+        private AVControls.AVButton rjButton1;
         private System.Windows.Forms.Timer timer1;
     }
 }
